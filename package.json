@@ -1,0 +1,16 @@
+{
+  "name": "your-project-name",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "concurrently \"nodemon backend/index.js\" \"npm start --prefix frontend\""
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2",
+    "nodemon": "^2.0.22"
+  },
+  "dependencies": {
+    "@calcom/embed-react": "^1.5.0",
+    "@fortawesome/free-brands-svg-icons": "^6.6.0",
+    "@fortawesome/react-fontawesome": "^0.2.2"
+  }
+}
