@@ -48,30 +48,30 @@ const Navbar = () => {
           />
           <MenuList bg="gray.900" borderColor="gray.700">
             {/* Menu Items */}
-            <MenuItem as={Link} bg="gray.900" color="white" to="/fitness" _hover={{ bg: 'gray.600' }}>
+            {/* <MenuItem as={Link} bg="gray.900" color="white" to="/fitness" _hover={{ bg: 'gray.600' }}>
               Virtual Gym
-            </MenuItem>
+            </MenuItem> */}
             <MenuItem as={Link} bg="gray.900" color="white" to="/Tracker/dashboard" _hover={{ bg: 'gray.600' }}>
               Fitness Tracker
             </MenuItem>
             <MenuItem as={Link} bg="gray.900" color="white" to="/Bmi" _hover={{ bg: 'gray.600' }}>
               BMI Calculator
             </MenuItem>
-            <MenuItem as={Link} bg="gray.900" color="white" to="/catch" _hover={{ bg: 'gray.600' }}>
+            {/* <MenuItem as={Link} bg="gray.900" color="white" to="/catch" _hover={{ bg: 'gray.600' }}>
               Free Fall
-            </MenuItem>
-            <MenuItem as={Link} bg="gray.900" color="white" to="/Memory" _hover={{ bg: 'gray.600' }}>
+            </MenuItem> */}
+            {/* <MenuItem as={Link} bg="gray.900" color="white" to="/Memory" _hover={{ bg: 'gray.600' }}>
               Memory Games
-            </MenuItem>
+            </MenuItem> */}
             <MenuItem as={Link} bg="gray.900" color="white" to="/Aibot" _hover={{ bg: 'gray.600' }}>
               Chatbot
             </MenuItem>
             <MenuItem as={Link} bg="gray.900" color="white" to="/Contact" _hover={{ bg: 'gray.600' }}>
               Contact Us
             </MenuItem>
-            <MenuItem as={Link} bg="gray.900" color="white" to="/news" _hover={{ bg: 'gray.600' }}>
+            {/* <MenuItem as={Link} bg="gray.900" color="white" to="/news" _hover={{ bg: 'gray.600' }}>
               News
-            </MenuItem>
+            </MenuItem> */}
 
             <Divider />
 
@@ -98,9 +98,9 @@ const Navbar = () => {
               Fitness
             </MenuButton>
             <MenuList bg="gray.900" borderColor="gray.700">
-              <MenuItem as={Link} bg="gray.900" color={'white'} to="/fitness" _hover={{ bg: 'gray.600' }}>
+              {/* <MenuItem as={Link} bg="gray.900" color={'white'} to="/fitness" _hover={{ bg: 'gray.600' }}>
                 Virtual Gym
-              </MenuItem>
+              </MenuItem> */}
               <MenuItem as={Link} bg="gray.900" color={'white'} to="/Tracker/dashboard" _hover={{ bg: 'gray.600' }}>
                 Fitness Tracker
               </MenuItem>
@@ -111,9 +111,9 @@ const Navbar = () => {
           </Menu>
 
           <Menu>
-            <MenuButton as={Button} color={'white'} variant="ghost" _hover={{ bg: 'gray.600' }} rightIcon={<ChevronDownIcon />}>
+            {/* <MenuButton as={Button} color={'white'} variant="ghost" _hover={{ bg: 'gray.600' }} rightIcon={<ChevronDownIcon />}>
               Games
-            </MenuButton>
+            </MenuButton> */}
             <MenuList bg="gray.900" borderColor="gray.700">
               <MenuItem as={Link} bg="gray.900" color={'white'} to="/catch" _hover={{ bg: 'gray.600' }}>
                 Free Fall
@@ -139,7 +139,7 @@ const Navbar = () => {
             <a href="/Contact">Contact Us</a>
           </Button>
 
-          <Menu>
+          {/* <Menu>
             <MenuButton as={Button} color={'white'} variant="ghost" _hover={{ bg: 'gray.600' }} rightIcon={<ChevronDownIcon />}>
               News & More
             </MenuButton>
@@ -148,7 +148,7 @@ const Navbar = () => {
                 News
               </MenuItem>
             </MenuList>
-          </Menu>
+          </Menu> */}
 
           {/* User Authentication (Profile Icon for Desktop View) */}
           <Box

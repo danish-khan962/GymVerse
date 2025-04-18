@@ -115,10 +115,10 @@ export default function Home() {
             <div id='virtualGym'>
               <Fit />
             </div>
-
+{/* 
             <div className=' ' id='games'>
               <Games />
-            </div>
+            </div> */}
             <SimpleGrid
 
               columns={{ base: 1, sm: 2, md: 3, lg: 4 }}
@@ -204,7 +204,7 @@ export default function Home() {
             <div>
               <footer className="  py-6">
                 <div className="container mx-auto text-center">
-                  <p className="mb-4 text-black">© 2024 OnlySolution. All rights reserved.</p>
+                  {/* <p className="mb-4 text-black">© 2024 OnlySolution. All rights reserved.</p> */}
                   <div className="flex justify-center space-x-4">
                     <a href="#" className="hover:text-gray-400 text-black">Privacy Policy</a>
                     <a href="#" className="hover:text-gray-400 text-black">Terms of Service</a>
@@ -214,7 +214,7 @@ export default function Home() {
                 </div>
                 <div className='ml-auto lg:ml-[58rem]'>
                   <p className=' flex items-center text-black'>
-                    Made with <GoHeartFill className="mr-[0.2rem] ml-[0.2rem] text-red-700" /> by Ishita Malhotra
+                    Made with <GoHeartFill className="mr-[0.2rem] ml-[0.2rem] text-red-700" /> by Kunal Khandelwal, Danish Khan and Kshitij Jindal
                   </p>
                 </div>
               </footer>
