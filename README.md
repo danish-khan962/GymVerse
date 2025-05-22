@@ -50,7 +50,7 @@ Welcome to the **GymVerse Assignment** repository! This project is a full-featur
 
 | Component         | Platform | URL                                                   |
 |------------------|----------|--------------------------------------------------------|
-| **Frontend**      | Vercel   | [https://gymverseassignment.vercel.app/](https://gymverseassignment.vercel.app/) |
+| **Frontend**      | Vercel   | [https://gym-verse-frontend.vercel.app/](https://gym-verse-frontend.vercel.app/) |
 | **Backend API**   | Render   | Securely hosted with environment configurations       |
 
 ---
