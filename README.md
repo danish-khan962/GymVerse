@@ -53,11 +53,3 @@ Welcome to the **GymVerse Assignment** repository! This project is a full-featur
 | **Frontend**      | Vercel   | [https://gym-verse-frontend.vercel.app/](https://gym-verse-frontend.vercel.app/) |
 | **Backend API**   | Render   | Securely hosted with environment configurations       |
 
----
-
-## 📷 Screenshots
-
-> _You can optionally include project screenshots here with the syntax below:_
-```md
-![Home Page](./screenshots/home.png)
-![Admin Dashboard](./screenshots/admin-dashboard.png)
